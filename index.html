@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonTec | Montagem e Tecnologia</title>
+
+    <meta name="description" content="MonTec - Empresa especializada em montagem, manutenção, instalação e atualização de equipamentos eletrônicos e tecnológicos.">
+    <meta name="author" content="MonTec">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0a2540, #0d3b66);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 15px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #0a2540;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        section h2 {
+            color: #0a2540;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 17px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 30px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #0a2540;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .cta {
+            background: #0a2540;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .cta p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            background: #0a2540;
+            color: #fff;
+            text-align: center;
+            padding: 25px 15px;
+            font-size: 14px;
+        }
+
+        footer p {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MONTEC</h1>
+    <p>Montagem • Manutenção • Tecnologia</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<section id="sobre">
+    <h2>Quem Somos</h2>
+    <p>
+        A <strong>MonTec</strong> é uma empresa especializada em montagem, manutenção,
+        instalação e atualização de equipamentos eletrônicos e tecnológicos.
+        Atuamos com foco em qualidade, organização, eficiência técnica e
+        compromisso com nossos clientes e parceiros.
+    </p>
+</section>
+
+<section id="servicos">
+    <h2>Nossos Serviços</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Montagem de Equipamentos</h3>
+            <p>
+                Montagem completa de equipamentos eletrônicos e tecnológicos,
+                seguindo padrões técnicos, organização e qualidade profissional.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Manutenção Técnica</h3>
+            <p>
+                Manutenção preventiva e corretiva para garantir desempenho,
+                segurança e maior vida útil dos equipamentos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Instalação Técnica</h3>
+            <p>
+                Instalação de equipamentos com foco em segurança,
+                eficiência operacional e boas práticas técnicas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Atualização de Placas</h3>
+            <p>
+                Atualização, substituição e ajustes em placas eletrônicas
+                e componentes tecnológicos.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="contato">
+    <h2>Fale com a MonTec</h2>
+    <p>
+        Entre em contato para orçamentos, parcerias ou mais informações
+        sobre nossos serviços.
+    </p>
+
+    <a href="#" class="btn">Entrar em Contato</a>
+</section>
+
+<footer>
+    <p>© 2025 MonTec - Montagem e Tecnologia</p>
+</footer>
+
+</body>
+</html>
